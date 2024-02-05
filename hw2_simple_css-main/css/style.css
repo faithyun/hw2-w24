@@ -2,13 +2,13 @@ body {
     font-family: 'Arial', Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20px;
+    margin: 20px, 20px, 0px, 20px;
 }
 
 h1 {
     font-size: 42px;
     text-align: center;
-    padding: 15px;
+    padding: 15px, 15px, 15px, 15px;
 }
 
 h2 {
@@ -18,13 +18,14 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 0px 0px 10px;
 }
 
 img {
     width: 250px;
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right:auto;
     border-width: 10px;
     border-style: dashed;
     border-color: #FFFFFF;
@@ -32,7 +33,7 @@ img {
 
 div {
     min-height: 125px;
-    padding: 20px;
+    padding: 20px, 20px, 20px,20px;
     border: 3px solid #FFFFFF;
 }
 
@@ -61,6 +62,9 @@ div {
 .blue h2 {
     color: #C4C4C4;
 }
+.blue p {
+    color: #C4C4C4; 
+}
 
 .yellow {
     background-color: #FFFF00;
@@ -83,7 +87,7 @@ div {
 }
 
 footer {
-    background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000);
+    background: linear-gradient (#000000, #0000ff 25%, #0066ff 70%, #000000);
     border: 5px solid #FFFFFF;
 }
 
